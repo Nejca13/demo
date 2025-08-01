@@ -5,3 +5,5 @@ import { fileURLToPath } from 'url'
 // Replicate __dirname functionality in ES modules
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+
+console.log('tst')
